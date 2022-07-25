@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+h1{
+    width: 20%;
+    margin: 0 auto 0 auto;
+    font-size: 200%;
+    font-family: 'Sedgwick Ave', cursive;
+    color: #24A19C;
+    
+}
+p{
+    margin-bottom: 0;
+    font-family: 'Pacifico', cursive;
+    color: #24A19C;
+}
+.top-container {
+    background-color: #E4F9F5;
+    padding-top: 150px;
+    position: relative;
+    height:570px;
+    
+}
+.middle-container {
+    background-color: #F5EEDC;
+    margin: 0 auto 0 auto;
+    height: 400px;
+}
+.bottom-container {
+    background-color: #E4F9F5;
+    padding-top: 10px;
+    margin: 0 auto 0 auto;
+    height: 250px;
+}
+
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top:50px;
+    zoom: 120%;
+}
+.middle-cloud{
+    position: absolute;
+    left:230px;
+    top :500;
+    zoom: 150%;
+}
+.bottom-cloud{
+    position: absolute;
+    right:350px;
+    top:350px;
+    zoom: 120%;
+}
+.mountain{
+    position: absolute;
+    right:340px;
+    top:250px;
+    zoom: 120%;
+}
+.bottom-most-container{
+    text-align: center;
+    background-color: #F5EEDC;
+    padding-top: 0px;
+    margin: 0 auto 0 auto;
+    height: 100px;
+    
+}
+.my-photo{
+    position: absolute;
+    height: 6cm;
+    width: 6cm;
+    left: 100px;
+    top: 820px;
+
+}
+.about{
+    position: absolute;
+    top: 790px;
+    left: 800px;
+    color: #ECB390;
+}
+.about-me{
+    position: absolute;
+    color: #24A19C;
+    top:850px;
+    left:500px;
+    font-size: 1.5rem;
+    padding-right: 120px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 0px;
+}
+.photo1{
+    position: absolute;
+    left: 270px;
+    top: 1240px;
+    height: 2.5cm;
+    width: 2.5cm;
+}
+.photo2{
+    position: absolute;
+    left: 485px;
+    top: 1240px;
+    height: 2.5cm;
+    width: 2.5cm;
+}
+.photo3{
+    position: absolute;
+    left: 700px;
+    top: 1240px;
+    height: 2.5cm;
+    width: 2.5cm;
+}
+.photo4{
+    position: absolute;
+    left: 915px;
+    top: 1240px;
+    height: 2.5cm;
+    width: 2.5cm;
+}
+.photo5{
+    position: absolute;
+    left: 1130px;
+    top: 1240px;
+    height: 2.5cm;
+    width: 2.5cm;
+}
+.hobby{
+    position: absolute;
+    top: 1160px;
+    left: 600px;
+    color: #24A19C;
+    font-family: 'Sedgwick Ave', cursive;
+
+}
+hr{
+    border :dotted #d1d1d1 8px;
+    border-bottom: none;
+    width : 10%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.br1{
+    position: absolute;
+    top : 1115px;
+    left : 675px;
+    
+}
+/* .br2{
+    position: absolute;
+    top : 1377px;
+    left: 675px;
+} */
+.btn1 {
+    background: #d6923e;
+    background-image: -webkit-linear-gradient(top, #d6923e, #b84e2b);
+    background-image: -moz-linear-gradient(top, #d6923e, #b84e2b);
+    background-image: -ms-linear-gradient(top, #d6923e, #b84e2b);
+    background-image: -o-linear-gradient(top, #d6923e, #b84e2b);
+    background-image: linear-gradient(to bottom, #d6923e, #b84e2b);
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family: 'Pacifico', cursive;
+    color: #cac3a4;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: absolute;
+    top:1400px;
+    left:200px;
+  }
+  
+  .btn1:hover {
+    background: #e6b06e;
+    background-image: -webkit-linear-gradient(top, #e6b06e, #a6844e);
+    background-image: -moz-linear-gradient(top, #e6b06e, #a6844e);
+    background-image: -ms-linear-gradient(top, #e6b06e, #a6844e);
+    background-image: -o-linear-gradient(top, #e6b06e, #a6844e);
+    background-image: linear-gradient(to bottom, #e6b06e, #a6844e);
+    text-decoration: none;
+    color: #a7560b;
+  }
+  .btn2 {
+    background: #d6923e;
+    background-image: -webkit-linear-gradient(top, #d6923e, #b84e2b);
+    background-image: -moz-linear-gradient(top, #d6923e, #b84e2b);
+    background-image: -ms-linear-gradient(top, #d6923e, #b84e2b);
+    background-image: -o-linear-gradient(top, #d6923e, #b84e2b);
+    background-image: linear-gradient(to bottom, #d6923e, #b84e2b);
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family: 'Pacifico', cursive;
+    color: #cac3a4;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: absolute;
+    top:1400px;
+    left:700px;
+  }
+  
+  .btn2:hover {
+    background: #e6b06e;
+    background-image: -webkit-linear-gradient(top, #e6b06e, #a6844e);
+    background-image: -moz-linear-gradient(top, #e6b06e, #a6844e);
+    background-image: -ms-linear-gradient(top, #e6b06e, #a6844e);
+    background-image: -o-linear-gradient(top, #e6b06e, #a6844e);
+    background-image: linear-gradient(to bottom, #e6b06e, #a6844e);
+    text-decoration: none;
+    color: #a7560b;
+  }
+  .btn3 {
+    background: #d6923e;
+    background-image: -webkit-linear-gradient(top, #d6923e, #b84e2b);
+    background-image: -moz-linear-gradient(top, #d6923e, #b84e2b);
+    background-image: -ms-linear-gradient(top, #d6923e, #b84e2b);
+    background-image: -o-linear-gradient(top, #d6923e, #b84e2b);
+    background-image: linear-gradient(to bottom, #d6923e, #b84e2b);
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family: 'Pacifico', cursive;
+    color: #cac3a4;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: absolute;
+    top:1400px;
+    left:1200px;
+  }
+  
+  .btn3:hover {
+    background: #e6b06e;
+    background-image: -webkit-linear-gradient(top, #e6b06e, #a6844e);
+    background-image: -moz-linear-gradient(top, #e6b06e, #a6844e);
+    background-image: -ms-linear-gradient(top, #e6b06e, #a6844e);
+    background-image: -o-linear-gradient(top, #e6b06e, #a6844e);
+    background-image: linear-gradient(to bottom, #e6b06e, #a6844e);
+    text-decoration: none;
+    color: #a7560b;
+  }
